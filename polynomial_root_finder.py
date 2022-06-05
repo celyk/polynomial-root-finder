@@ -91,9 +91,9 @@ def find_roots(coeffs,interval):
 coeffs = [50,-25,-2,1]
 
 # input
-a = input("Please enter polynomial coefficients (default 100 -25 -2 1): ")
-if a:
-    coeffs = [ int(x) for x in a.split() ]
+s = input("Please enter polynomial coefficients (default 100 -25 -2 1): ")
+if s:
+    coeffs = [ int(x) for x in s.split() ]
 
 # output
 s = ""
